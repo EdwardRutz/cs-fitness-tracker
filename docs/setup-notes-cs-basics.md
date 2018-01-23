@@ -10,7 +10,9 @@ See code in program.cs
 - Variables, conditionals, loops, and exceptions
 
 ## NOTES
+
 ### C# Program Structure
+
 - A computer program is a collection of files, classes and methods.
 - All code is contained in a class which organizes the code.
 - C# code files have the .cs extension
@@ -113,7 +115,7 @@ class Program
 - Place as many Using Directives as needed at the top of the code page.
 
 ```cs
-namespace Treehouse
+namespace Planets
 {
     class Program
     {
@@ -134,7 +136,7 @@ namespace Treehouse
 - Run two command in the CLI by concatinating them with two ampersands (&&)
 - The second command will run after the first command executes successfully
 
-```mcs Program.cs && mono Program.exe```
+```mcs  Program.cs && mono Program.exe```
 
 ### Perform
 
@@ -144,8 +146,6 @@ Execute the plan and code.
 
 Improve app through refactoring, input validations, etc..
 
-## R&D
-- Does Ruby use Namespace?
 
 
 
