@@ -8,7 +8,7 @@ This is a C# console app to track fitness activity.
 
 ## APP STATUS
 
-- In Progress, step 1 complete
+- In Progress, step 2 complete
 
 ----------------------------------------------------------------------
 
