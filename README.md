@@ -15,7 +15,7 @@ Use this app to learn the Mono compiler and tools, see [Easy C# Compiling With M
 
 - None
 
-## INSTALL & Run
+## INSTALL & RUN
 
 - Clone repo
 - Double-click "program.exe" to run
@@ -28,7 +28,7 @@ Use this app to learn the Mono compiler and tools, see [Easy C# Compiling With M
 
 ## NOTES
 
-----------------------------------------------------------------------;
+----------------------------------------------------------------------
 
 ## REFERENCES
 
