@@ -10,7 +10,7 @@ See code in program.cs
 - Variables, conditionals, loops, and exceptions
 
 ## NOTES
-### Program Structure
+### C# Program Structure
 - A computer program is a collection of files, classes and methods.
 - All code is contained in a class which organizes the code.
 - C# code files have the .cs extension
@@ -23,8 +23,8 @@ See code in program.cs
 - Return type is the type of information a method will return
 - The Main method is the first method to run and determines the order other methods are run
 - A program must contain a method named "Main" with a capital "M". Classes start with a capital letter
-
 - The .Net library contains classes and methods to use.
+- Variable Names are typically written in CamelCase
 
 ### Prepare & Plan
 
@@ -53,9 +53,9 @@ class Program
 }
 ```
 
-##### Writing to the Console and Receiving Input
+### Console I/O
 
-- Writing to the console:
+#### Writing To the Console
 
 ```C#
     System.Console.Write("How many minutes did you exercise?  ");
@@ -65,13 +65,29 @@ class Program
 - To comple run: ```mcs Program.cs```
 - To run the program: ```mono Program.exe```
 
+#### Reading From the Console
 
+- The .NET framework provides the this method as well
+- When called, this method records user input until the return key is pressed
+- The return key marks the end of a line.
+- The "System.Console.ReadLine()" method doesn't take any parameters and it returns what the user types back to the program. It returns a string.
 
+```cs
+    System.Console.ReadLine();
+```
+##### Variables
+- Variable names can't have spaces and are typically written in CamelCase
+- Next, declare a variable then assign a value to it. 
+- Variable declaration...declare a variable by giving it a name and type
+- Variable assignment, give the variable a value
+- Initializing the variable is assigning a name to the variable at the same time it is declared
+- String Literal is a string that litterally contains the text value given, eg ```string entry = "25"```
 
+### Perform
+Execute the plan and code.
 
-
-
-
+### Perfect
+Improve app through refactoring, input validations, etc..
 
 ------------------------------------------------------------------------------
 ## REVIEW

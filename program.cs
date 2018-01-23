@@ -6,6 +6,7 @@ class Program
         System.Console.Write("How many minutes did you exercise?  ");
         string entry = System.Console.ReadLine();
 
+        string entry = System.Console.ReadLine();
 
 
         // Add minutes exercised to total
@@ -14,4 +15,4 @@ class Program
 
     }
 
-}
+}   
