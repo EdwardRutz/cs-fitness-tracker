@@ -4,7 +4,7 @@ This is a C# console app to track fitness activity.
 
 - It is also a review of C# basics from this [tutorial](https://teamtreehouse.com/library/c-basics)
 - For more info see [Notes & Comments](docs/setup-notes-cs-basics.md)
-- Use this app to learn the Mono compiler and tools, see [Easy C# Compiling With Mono Software](c-sharp/mono.md)
+- Use this app to learn the Mono compiler and tools, see [Easy C# Compiling With Mono Software](https://github.com/EdwardRutz/Today-I-Learned-Blog/blob/master/c-sharp/mono.md)
 
 ## APP STATUS
 
