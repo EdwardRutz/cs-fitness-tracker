@@ -1,17 +1,24 @@
-class Program
+using System;
+
+namespace SoftwareInc
 {
-    static void Main()
+    class Program
     {
-        // Prompt the user for minutes exercised
-        System.Console.Write("How many minutes did you exercise?  ");
-        string entry = System.Console.ReadLine();
+        static void Main()
+        {
+            // Prompt the user for minutes exercised
+            Console.Write("How many minutes did you exercise?  ");
+            string entry = Console.ReadLine();
 
 
+            // Add minutes exercised to total
 
-        // Add minutes exercised to total
-        // Display total minutes exercised to the screen
-        // repeat until the user quits
 
-    }
+            // Display total minutes exercised to the screen
+                Console.WriteLine("You entered " + entry + " minutes");
 
-}
+            // repeat until the user quits
+
+        }
+    }  
+} 
