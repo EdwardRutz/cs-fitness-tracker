@@ -26,7 +26,13 @@ namespace Treehouse.FitnessFrog
                 {
                     int minutes = int.Parse(entry);
 
-                    if(minutes <= 10)
+                    if(minutes <= 0)
+                    {
+                        Console.WriteLine(minutes + " is not an acceptable value");
+                        continue;  //continue tells the loop to start from the beginning
+                    }
+
+                    else if(minutes <= 10)
                     {
                         Console.WriteLine("Your off to a good start!");
                     }
