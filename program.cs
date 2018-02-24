@@ -1,24 +1,38 @@
 using System;
 
-namespace SoftwareInc
+namespace Treehouse.FitnessFrog
 {
     class Program
     {
         static void Main()
         {
-            // Prompt the user for minutes exercised
-            Console.Write("How many minutes did you exercise?  ");
-            string entry = Console.ReadLine();
+            int runningTotal = 0;
+            bool keepGoing = true;
 
+            //To stop the loop, just set keepGoing to false when the stop condition is met
 
-            // Add minutes exercised to total
+            while (keepGoing)
+            {
+                // Prompt the user for minutes exercised
+                Console.Write("How many minutes did you exercise or type \"quit\" to exit: ");
+                string entry = Console.ReadLine();
 
+                if (entry == "quit")
+                {
+                    keepGoing = false;
+                }
+                else
+                {
+                    int minutes = int.Parse(entry);
 
-            // Display total minutes exercised to the screen
-                Console.WriteLine("You entered " + entry + " minutes");
+                    // Add minutes exercised to total
+                    runningTotal = runningTotal + minutes;
 
-            // repeat until the user quits
-
+                    // Display total minutes exercised to the screen
+                    Console.WriteLine("You entered " + runningTotal + " minutes");
+                }
+                // repeat until the user quits
+            }
         }
     }  
 } 
