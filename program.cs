@@ -9,6 +9,8 @@ namespace SoftwareInc
 
             int runningTotal = 0;
 
+            while () {
+                
             // Prompt the user for minutes exercised
             Console.Write("How many minutes did you exercise?  ");
 
@@ -24,7 +26,10 @@ namespace SoftwareInc
                 Console.WriteLine("You entered " + runningTotal + " minutes");
 
             // repeat until the user quits
+ 
+            }
 
+            
         }
     }  
 } 
