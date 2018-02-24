@@ -6,6 +6,7 @@ namespace Treehouse.FitnessFrog
     {
         static void Main()
         {
+
             int runningTotal = 0;
             bool keepGoing = true;
 
