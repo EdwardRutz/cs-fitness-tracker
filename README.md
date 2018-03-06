@@ -18,6 +18,9 @@ This is a C# console app to track fitness activity.
 - Double-click "program.exe" to run
 - RESULT: The fitness tracker opens and runs in the console
 
+![alt text](ff-console.png "Fitness Frog Console")
+
+
 ### Learn the Mono Compiler & Framework
 
 - Download [Mono](http://www.Mono-project.com/) if you want to use the Mono Command Line to compile the program.cs and run the program.exe
