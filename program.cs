@@ -14,11 +14,14 @@ namespace Treehouse.FitnessFrog
             while (true)
             {
                 // Prompt the user for minutes exercised
-                Console.Write("How many minutes did you exercise or type \"quit\" to exit: ");
+                Console.Write("How many minutes did you exercise or type \"quit\" to end session. ");
                 var entry = Console.ReadLine();
 
                 if (entry.ToLower() == "quit")  //toLower() makes entry all lower case
                 {
+                    // repeat until the user quits, give valediction.
+                    Console.WriteLine("Good Work! See you tomorrow. Press 'Enter Key' to exit.");
+                    Console.ReadLine();
                     break;
                 }
                 
@@ -61,8 +64,7 @@ namespace Treehouse.FitnessFrog
                     }                  
                     // Display total minutes exercised to the screen
                     Console.WriteLine("You entered " + runningTotal + " minutes");
-                    
-                // repeat until the user quits
+
             }
         }
     }  
