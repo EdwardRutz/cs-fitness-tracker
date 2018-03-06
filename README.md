@@ -1,4 +1,4 @@
-# C# Fitness Tracker Console App
+# Fitness Frog, A C# Fitness Tracker Console App
 
 This is a C# console app to track fitness activity.
 
